@@ -1,0 +1,2 @@
+# hugowind
+Hugo+Tailwind Template
