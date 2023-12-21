@@ -1,0 +1,14 @@
+<div class="flex flex-col my-5">
+  {{ range .Sections.ByWeight }}
+    <div class="py-3">
+      <div class="font-bold text-xl border-b-2 border-dashed border-current">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </div>
+      {{ range .Pages.ByWeight }}
+        <div class="py-1">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </div>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>

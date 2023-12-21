@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Roboto Mono;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333333;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px 30px;
+}

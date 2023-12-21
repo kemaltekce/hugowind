@@ -1,0 +1,6 @@
+baseURL = 'https://kmltkc.de/hugowind'
+languageCode = 'en-us'
+title = 'hugowind'
+RelativeURLs=true
+CanonifyURLs=true
+UglyURLs=true

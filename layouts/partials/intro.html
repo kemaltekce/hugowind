@@ -1,0 +1,10 @@
+{{ $data := .Site.Data.hello }}
+
+
+<div class="bg-[#DCE1FD] p-5 rounded-[7px] h-[300px] my-5 relative">
+  <div class="font-bold">{{ $data.text }}</div>
+  <div>{{ $data.subtext }}</div>
+  <div class="text-5xl absolute bottom-0 right-0 p-[inherit]">
+    {{ $data.heading }}
+  </div>
+</div>

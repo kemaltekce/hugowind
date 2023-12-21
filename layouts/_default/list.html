@@ -1,0 +1,16 @@
+<html lang="en">
+  {{ partial "header.html" . }}
+  <body>
+    <div
+      class="font-bold text-3xl border-b-2 border-dashed border-current my-5"
+    >
+      {{ .Title }}
+    </div>
+    <div>{{ .Content }}</div>
+    {{ range .Pages.ByWeight }}
+      <div class="py-1">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </div>
+    {{ end }}
+  </body>
+</html>
